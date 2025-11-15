@@ -1,0 +1,10 @@
+fastapi==0.114.0
+uvicorn[standard]==0.23.1
+python-dotenv==1.0.1
+requests==2.31.0
+SQLAlchemy==2.1.2
+psycopg2-binary==2.9.9
+langchain-community==0.1.19
+sentence-transformers==2.2.2
+torch==2.3.1
+streamlit==1.27.0

@@ -1,0 +1,78 @@
+# --------------------
+# Python ignores
+# --------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.log
+
+# Virtual Environments
+.env
+venv/
+rag-env/
+
+# --------------------
+# OS / Editor files
+# --------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --------------------
+# Models & Weights (HuggingFace / Sentence Transformers)
+# --------------------
+models/
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+*.h5
+*.onnx
+*.lock
+
+# --------------------
+# Cache
+# --------------------
+.cache/
+huggingface/
+transformers_cache/
+datasets/
+tmp/
+temp/
+
+# --------------------
+# Docker
+# --------------------
+docker-data/
+*.pid
+
+# --------------------
+# Data
+# --------------------
+data/pdfs/
+*.pdf
+
+# --------------------
+# Database dumps
+# --------------------
+*.sql
+*.db
+
+# --------------------
+# Env Files (Secrets)
+# --------------------
+.env
+*.env
+.env.local
+.env.production
+
+# --------------------
+# Build / Output
+# --------------------
+dist/
+build/
+
